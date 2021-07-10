@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: aliceblue;
+    background-color: black;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55rem;
+    height: auto;
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1rem, 1rem);
+    grid-gap: 5rem;
+    grid-auto-rows: minmax(4rem, 4rem);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+h1, h3 {
+    text-align: center;
+}
+.soon {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.tourism {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.street {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.event {
+    grid-column: 3;
+    grid-row: 5;
+}
